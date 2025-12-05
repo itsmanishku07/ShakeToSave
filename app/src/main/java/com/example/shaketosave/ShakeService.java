@@ -46,7 +46,7 @@ public class ShakeService extends Service implements ShakeDetector.OnShakeListen
     private static final int SOS_NOTIFICATION_ID = 1002;
     private static final String PREFS_NAME = "SafeShakePrefs";
     private static final int SHAKE_THRESHOLD = 2;
-    private static final int COUNTDOWN_SECONDS = 3;
+    private static final int COUNTDOWN_SECONDS = 5;
 
     public static final String ACTION_SEND_NOW = "com.example.shaketosave.SEND_NOW";
     public static final String ACTION_CANCEL_SOS = "com.example.shaketosave.CANCEL_SOS";

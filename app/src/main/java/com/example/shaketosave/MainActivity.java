@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements ShakeDetector.OnS
     private static final int NOTIFICATION_PERMISSION_REQUEST = 1002;
     private static final int BACKGROUND_LOCATION_REQUEST = 1003;
     private static final int SHAKE_THRESHOLD = 2;
-    private static final int COUNTDOWN_SECONDS = 3;
+    private static final int COUNTDOWN_SECONDS = 5;
 
     private SensorManager sensorManager;
     private Sensor accelerometer;
